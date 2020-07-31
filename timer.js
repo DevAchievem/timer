@@ -1,5 +1,3 @@
-const { number } = require("yargs");
-
 let input = process.argv.slice(2);
 for (let num of input) {
   let when = (num * 1000);
